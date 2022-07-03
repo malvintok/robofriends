@@ -1,6 +1,7 @@
 import Card from "./Card";
 
 const CardList = ({ robots }) => {
+  // throw new Error('test boundary'); // For testing error boundary
   return (
     <div>
       {robots.map((user) => {
